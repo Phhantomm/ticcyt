@@ -44,6 +44,12 @@ class MainActivity2 : AppCompatActivity(), View.OnClickListener {
 
         play1.text = playerr1
         play2.text = playerr2
+        if (play1.text.isEmpty()){
+            play1.text="Player 1"
+        }
+        if(play2.text.isEmpty()){
+            play2.text = "Player 2"
+        }
         init()
     }
     private fun init(){
