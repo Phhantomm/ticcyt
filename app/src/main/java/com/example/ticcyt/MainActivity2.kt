@@ -260,7 +260,7 @@ class MainActivity2 : AppCompatActivity(), View.OnClickListener {
             button8.isEnabled=false
             button9.isEnabled=false
         }
-        if(firstPlayer.size + secondPlayer.size == 9){
+        if(firstPlayer.size + secondPlayer.size == 9 $$ winnerPlayer == 0){
             Toast.makeText(this,"its a draw", Toast.LENGTH_SHORT).show()
         }
     }
